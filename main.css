@@ -9,13 +9,41 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 200px 1fr;
 }
 
 .sidebar{
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
     background-color: #466964;
 }
 
+/* SIDEBAR ELEMENTS */
+
+.sidebar .title{
+    display: flex;
+    align-items: center;
+    margin: 10px 25px;
+    gap: 15px;
+}
+
+.sidebar .title img{
+    width: 60px;
+    height: 60px;
+}
+
+.sidebar .title h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.sidebar .links{
+    margin: 20px;
+}
+
+.sidebar .links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
