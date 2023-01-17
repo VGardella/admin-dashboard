@@ -73,6 +73,7 @@ body{
     display: grid;
     grid-template-rows: 70px 100px;
     grid-template-columns: 1fr 500px;
+    box-shadow: 0 10px 10px lightgray;
 }
 
 /* HEADER: SEARCHBAR */
