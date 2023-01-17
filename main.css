@@ -108,7 +108,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 0 20px 0 0;
+    padding: 10px 50px 0 0;
 }
 
 .user-links .notifications{
@@ -154,8 +154,9 @@ body{
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: right;
+    padding-right: 50px;
+    gap: 25px;
 }
 
 .buttons .btn{
