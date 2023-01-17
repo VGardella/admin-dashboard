@@ -5,6 +5,17 @@ body{
     margin: 0;
 }
 
+.entries, 
+.tren-entries{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 10px 20px 20px 0;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+    padding: 40px;
+}
+
 /* DISTRIBUTION */
 
 .container{
