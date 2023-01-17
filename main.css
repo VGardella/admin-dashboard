@@ -1,5 +1,5 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     size: 15px;
     height: 100%;
     margin: 0;
@@ -50,7 +50,6 @@ body{
 
 .links ul li{
     display: flex;
-    align-content: center;
     padding: 10px;
 
 }
@@ -63,7 +62,9 @@ body{
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
-    padding: 0 30px;
+    padding: 5px 0 0 30px;
+    display: flex;
+    align-items: center;
 }
 
 /* HEADER */
@@ -71,9 +72,12 @@ body{
 .header{
     display: grid;
     grid-template-rows: 70px 100px;
+    grid-template-columns: 1fr 400px;
 }
 
 .header .searchbar{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
     display: flex;
     align-items: center;
     padding: 20px;
