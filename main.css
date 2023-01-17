@@ -170,3 +170,26 @@ body{
     background-color: #599e94;
     border-radius: 50px;
 }
+
+/* MAIN */
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main .projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .projects h3{
+    padding: 20px;
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
