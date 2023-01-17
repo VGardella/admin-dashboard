@@ -80,9 +80,9 @@ body{
 }
 
 .searchbar img{
-    width: 20px;
-    height: 20px;
-    padding: 0 30px;
+    width: 19px;
+    height: 19px;
+    padding: 0 20px 0 30px;
 }
 
 .searchbar #searchbar{
