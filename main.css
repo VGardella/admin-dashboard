@@ -97,3 +97,31 @@ body{
     border-radius: 10px;
     background-color: #9ec2bc;
 }
+
+.header .user-links{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 20px 0 0;
+}
+
+.user-links .notifications{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    align-self: center;
+}
+
+.user-links #user-icon1{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+
+.user-links h3{
+    padding: 0 20px 0 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
