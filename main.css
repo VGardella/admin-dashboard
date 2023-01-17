@@ -10,7 +10,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 350px 1fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 170px 1fr;
 }
 
 .sidebar{
@@ -64,4 +64,32 @@ body{
     font-weight: 500;
     color: #FFFFFF;
     padding: 0 30px;
+}
+
+/* HEADER */
+
+.header{
+    display: grid;
+    grid-template-rows: 70px 100px;
+}
+
+.header .searchbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.searchbar img{
+    width: 20px;
+    height: 20px;
+    padding: 0 30px;
+}
+
+.searchbar #searchbar{
+    width: 600px;
+    height: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #9ec2bc;
 }
