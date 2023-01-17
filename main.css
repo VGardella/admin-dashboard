@@ -47,3 +47,21 @@ body{
     margin: 0;
     padding: 20px;
 }
+
+.links ul li{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+
+}
+
+.links ul li img{
+    width: 30px;
+}
+
+.links ul li .label{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0 30px;
+}
